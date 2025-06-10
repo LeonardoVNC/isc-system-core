@@ -3,8 +3,10 @@ export interface userProfileInterface {
   name: string;
   username: string;
   lastname: string;
+  career: string;
   email: string;
   password: string;
   mothername?: string;
   phone: string;
+  role: string;
 }
